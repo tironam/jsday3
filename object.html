@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Document</title>
+</head>
+<body>
+        
+        <script>
+
+                let obj = {
+                        str: 'Hello World!',
+                        num: 54,
+                        bool: true,
+                        arr: [1, 2, 3, 4],
+                        small: {
+                                name: 'John',
+                                age: 56
+                },
+                myFunction () {
+                        console.log('Hi Everyone!')
+                        }
+                }
+
+                // how to print stuff from within an object
+                console.log(obj.str)
+                console.log(obj.num)
+                console.log(obj.bool)
+                console.log(obj.arr[2])
+                // How to call a function from within an object
+                obj.myFunction()
+
+        </script>
+</body>
+</html>
