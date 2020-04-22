@@ -7,8 +7,11 @@
 </head>
 <body>
         
+        <!-- Correct code from Quinton -->
         <script>
                 for (let i = 1; i <= 100; i++) {
+                        // was originally checking for 3 and 5 with modulus, but making it 15 simplifies that
+                        // Important that this goes first so that it can check this condition first, otherwise it'll see "Oh, 3 works, so no need to check the other conditions"
                                 if (i % 15 === 0) {
                                         console.log('FizzBuzz')
                                 } else if (i % 3 === 0) {
